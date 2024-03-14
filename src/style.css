@@ -1,0 +1,13 @@
+body {
+    background-color: #D3BBDD;
+    font-family: 'Roboto' , sans-serif;
+}
+
+.app-content {
+    background: #F0F7E0;
+    max-width: 650px;
+    margin: 80px auto;
+    padding: 30px;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 8px;
+}
