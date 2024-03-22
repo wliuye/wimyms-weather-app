@@ -8,9 +8,10 @@ a {
 }
 
 h1 {
-    font-size: 60px;
-    margin-left: 25px;
-    margin-top: 10px;
+    font-size: 70px;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-family: "Truculenta", sans-serif;
 }
 
 .weather-app-content {
@@ -53,36 +54,33 @@ header {
 
 }
 
-.weather-app-city {
-    margin: 0px;
-    font-size: 38px;
-    line-height: 48px;
-    font-family: "Truculenta", sans-serif;
-}
 .weather-app-temperature-container{
     display: flex;
 }
 
 .weather-app-icon {
     font-size: 50px;
+    margin-top: 30px;
 }
 
 .weather-app-temperature {
     font-size: 88px;
     font-weight: bold;
+    font-family: "Truculenta", sans-serif;
 }
 
 .weather-app-unit {
-    margin-top: 10px;
-    font-size: 28px;
+    margin-top: 30px;
+    font-size: 25px;
 }
 
-p { 
+.weather-app-details { 
+    color: rgba(0, 0, 0, 0.6);
     font-size: 16px;
     line-height: 27px;
     border: #92459B;
-    margin-left: 10px;
-    margin-top: 15px;
+    margin-right: 30px;
+    margin-top: 30px;
     border-radius: 6px;
     border-width: 5px;
 }
