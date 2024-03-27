@@ -11,34 +11,36 @@
 <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-    <title>Document</title>
+    <title>Weather Forecast</title>
 </head>
 <body>
     <div class="weather-app-content">
     <header>
         <form class="weather-search-form" id="search-form">
-            <input type="search" 
-            placeholder="Weather Forecast" 
+            <input 
+            type="search" 
+            placeholder="Enter a city..." 
             required 
             id="search-form-input"
-            class="search-input"/>
+            class="search-input"
+            />
             <input type="submit" value="Search" class="search-button"/>
         </form>
     </header>
     <main>
         <div class="weather-app-data">
-        <h1 id="city">
-            Quito
-        </h1>
+        <h1 id="city"></h1>
         <div class="weather-app-temperature-container">
-            <div class="weather-app-icon">🌦️</div>
-            <div class="weather-app-temperature">12</div>
+            <div id="icon"></div>
+            <div class="weather-app-temperature" id="temperature"></div>
             <div class="weather-app-unit">°C</div>
         </div> 
         <p class="weather-app-details">
-            Tuesday 0:00, scattered clouds
+            <span id="time"></span>, 
+            <span id="description"></span>
             <br />
-            Humidity: <strong>66%</strong>, Wind: <strong>3.33</strong>km/h
+            Humidity: <strong id="humidity"></strong>, Wind: 
+            <strong id="wind-speed"></strong>
         </p>
         </div>
     </main>
