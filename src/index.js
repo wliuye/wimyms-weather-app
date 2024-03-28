@@ -8,6 +8,7 @@ function refreshWeather(response) {
     let timeElement = document.querySelector("#time");
     let date = new Date(response.data.time * 1000);
     let iconElement = document.querySelector("#icon");
+    
 
     cityElement.innerHTML = response.data.city;
     timeElement.innerHTML = formatDate(date);
