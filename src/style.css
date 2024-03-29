@@ -93,7 +93,8 @@ header {
 }
 
 .weather-forecast {
-    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
     text-align: center;
 }
 
